@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="3" x="250" y="192" width="865" height="521" text="PickaStud                                                             " measuredWidth="865" measuredHeight="521"/>
+  <widgets xsi:type="model:Menu" id="2" x="250" y="215" text="File, Edit, View,Format, Data, Window, Help" measuredWidth="281" measuredHeight="27" selection="0">
+    <items x="5" y="0" width="29" height="27" text="File"/>
+    <items x="34" y="0" width="31" height="27" text="Edit"/>
+    <items x="65" y="0" width="36" height="27" text="View"/>
+    <items x="101" y="0" width="49" height="27" text="Format"/>
+    <items x="150" y="0" width="35" height="27" text="Data"/>
+    <items x="185" y="0" width="55" height="27" text="Window"/>
+    <items x="240" y="0" width="36" height="27" text="Help"/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="4" x="439" y="296" width="609" height="353" text="Alumnos, Tutores,Empresas, Documentación" measuredWidth="609" measuredHeight="353" selection="0" verticalScrollbar="true">
+    <items x="10" y="0" width="69" height="27" text="Alumnos"/>
+    <items x="79" y="0" width="60" height="27" text="Tutores"/>
+    <items x="139" y="0" width="71" height="27" text="Empresas"/>
+    <items x="210" y="0" width="106" height="27" text="Documentación"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="5" x="449" y="352" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="6" x="315" y="262" width="138" text="Search" measuredWidth="138" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="7" x="250" y="244" width="55" height="59" measuredWidth="55" measuredHeight="59" shapeType="star">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="8" x="469" y="352" text="Nombre" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="9" x="537" y="352" text="Apellidos" measuredWidth="60" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="609" y="352" width="97" text="Exp" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="11" x="721" y="352" width="25" height="27" measuredWidth="25" measuredHeight="27" icon="circled-plus (custom)"/>
+  <widgets xsi:type="model:VButtonBar" id="12" x="258" y="323" width="182" height="326" text="Alumnos&#xA;Tutores&#xA;Empresas&#xA;Documentación&#xA;" measuredWidth="182" measuredHeight="326" selection="0" textAlignment="Center">
+    <font/>
+    <items x="0" y="0" width="182" height="80" text="Alumnos"/>
+    <items x="0" y="80" width="182" height="79" text="Tutores"/>
+    <items x="0" y="159" width="182" height="79" text="Empresas"/>
+    <items x="0" y="238" width="182" height="88" text="Documentación"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="13" x="450" y="388" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="470" y="388" text="Nombre" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="538" y="388" text="Apellidos" measuredWidth="60" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="610" y="388" width="97" text="Exp" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="17" x="722" y="388" width="25" height="27" measuredWidth="25" measuredHeight="27" icon="circled-plus (custom)"/>
+  <widgets xsi:type="model:Checkbox" id="18" x="451" y="422" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="19" x="471" y="422" text="Nombre" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="20" x="539" y="422" text="Apellidos" measuredWidth="60" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="21" x="611" y="422" width="97" text="Exp" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="22" x="723" y="422" width="25" height="27" measuredWidth="25" measuredHeight="27" icon="circled-plus (custom)"/>
+  <widgets xsi:type="model:Checkbox" id="23" x="452" y="458" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="24" x="472" y="458" text="Nombre" measuredWidth="55" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="540" y="458" text="Apellidos" measuredWidth="60" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="612" y="458" width="97" text="Exp" measuredWidth="97" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="27" x="724" y="458" width="25" height="27" measuredWidth="25" measuredHeight="27" icon="circled-plus (custom)"/>
+  <widgets xsi:type="model:Combo" id="28" x="848" y="333" text="Centro" measuredWidth="79" measuredHeight="31">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="29" x="669" y="600" text="Edit" measuredWidth="40" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="457" y="600" text="Add Student" measuredWidth="86" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="31" x="552" y="600" text="Remove Student" measuredWidth="107" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="32" x="936" y="333" text="Grupo" measuredWidth="75" measuredHeight="31">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="33" x="955" y="254" width="87" text="UserName" measuredWidth="87" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="34" x="956" y="271" width="87" text="Password" measuredWidth="87" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="35" x="1063" y="213" measuredWidth="32" measuredHeight="32" icon="shutdown (large)"/>
+  <widgets xsi:type="model:Label" id="36" x="939" y="206" text="Login" measuredWidth="101" measuredHeight="53" icon="user (small)">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="37" x="250" y="241" width="151" text="New Project&#xA;Open Project&#xA;Save Project&#xA;{find} Search&#xA;--&#xA;Print...&#xA;---&#xA;Exit (Alt-F4)" measuredWidth="151" measuredHeight="164" selection="8">
+    <items x="0" y="2" width="151" height="23" text="New Project"/>
+    <items x="0" y="25" width="151" height="23" text="Open Project"/>
+    <items x="0" y="48" width="151" height="23" text="Save Project"/>
+    <items x="0" y="71" width="151" height="23" text="{find} Search"/>
+    <items x="0" y="94" width="151" height="11" text="--"/>
+    <items x="0" y="105" width="151" height="23" text="Print..."/>
+    <items x="0" y="128" width="151" height="11" text="---"/>
+    <items x="0" y="139" width="151" height="23" text="Exit (Alt-F4)"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
